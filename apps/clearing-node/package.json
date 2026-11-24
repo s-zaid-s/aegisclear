@@ -1,0 +1,15 @@
+{
+  "name": "@aegisclear/clearing-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aegisclear/core": "*",
+    "@aegisclear/ports": "*",
+    "@aegisclear/client": "*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "node --experimental-strip-types src/server.ts"
+  }
+}

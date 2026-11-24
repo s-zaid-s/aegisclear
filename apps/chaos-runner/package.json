@@ -1,0 +1,16 @@
+{
+  "name": "@aegisclear/chaos-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@aegisclear/core": "*",
+    "@aegisclear/ports": "*",
+    "@aegisclear/storage-offline": "*",
+    "@aegisclear/client": "*"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node --experimental-strip-types src/simulator.ts"
+  }
+}

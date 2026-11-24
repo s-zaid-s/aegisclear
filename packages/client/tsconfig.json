@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": { "rootDir": "src", "outDir": "dist" },
+  "references": [
+    { "path": "../core" },
+    { "path": "../ports" },
+    { "path": "../ledger-engine" },
+    { "path": "../netting-engine" },
+    { "path": "../risk-engine" },
+    { "path": "../storage-offline" },
+    { "path": "../clearing-services" }
+  ],
+  "include": ["src"]
+}

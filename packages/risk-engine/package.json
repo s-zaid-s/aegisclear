@@ -1,0 +1,9 @@
+{
+  "name": "@aegisclear/risk-engine",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": { "@aegisclear/core": "*", "@aegisclear/ports": "*" },
+  "scripts": { "build": "tsc -b" }
+}

@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/ports" },
+    { "path": "packages/ledger-engine" },
+    { "path": "packages/netting-engine" },
+    { "path": "packages/fx-engine" },
+    { "path": "packages/risk-engine" },
+    { "path": "packages/storage-offline" },
+    { "path": "packages/clearing-services" },
+    { "path": "packages/client" },
+    { "path": "apps/clearing-node" },
+    { "path": "apps/chaos-runner" }
+  ]
+}

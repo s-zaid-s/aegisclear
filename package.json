@@ -1,0 +1,24 @@
+{
+  "name": "aegisclear-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend TypeScript monorepo for a real-time multi-currency clearing house, double-entry ledger, multilateral netting engine, and deterministic chaos simulator.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev:node": "npm run dev --workspace=@aegisclear/clearing-node",
+    "sim:chaos": "npm run start --workspace=@aegisclear/chaos-runner",
+    "lint": "eslint packages apps --ext .ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
